@@ -1,0 +1,22 @@
+nav {
+  background-color: #00bfff;
+}
+
+.navCategories {
+  display: inline-block;
+  text-decoration: none;
+  color: antiquewhite;
+  margin: 1em;
+}
+
+.navCategories li {
+  list-style-type: none;
+}
+
+.navRollover {
+  background-color: #00bfff;
+}
+
+.navRollover:hover {
+  background-color: rgb(122, 52, 2);
+}
