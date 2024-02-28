@@ -6,17 +6,41 @@ nav {
   display: inline-block;
   text-decoration: none;
   color: antiquewhite;
-  margin: 1em;
+  margin: 0.5rem;
+  
 }
 
 .navCategories li {
   list-style-type: none;
 }
 
-.navRollover {
-  background-color: #00bfff;
-}
+
 
 .navRollover:hover {
-  background-color: rgb(122, 52, 2);
+  background-color: #34a9e4;
+  cursor: pointer;
 }
+
+/* Hover effect for navigation category */
+.navCategories:hover ul {
+  display: block; /* Show subcategory list on hover */
+}
+
+.navCategories ul {
+  display: none; /* Hide subcategory list by default */
+  position: absolute;
+  background-color: #62d0f4;; /* Background color for the dropdown */
+  padding: 15px;
+  margin: 8px;
+  border-radius: 5px;
+  align-items: center;
+ 
+}
+
+.navCategories ul li {
+  list-style-type: none;
+  padding: 10px 5px;
+  margin: -5px;
+}
+
+
